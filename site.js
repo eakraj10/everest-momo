@@ -1,7 +1,7 @@
-// Delivery dialog
-const dialog = document.getElementById('delivery-dialog');
+// Order online dialog (pickup or delivery)
+const dialog = document.getElementById('order-dialog');
 let lastTrigger = null;
-document.querySelectorAll('[data-delivery]').forEach(btn => btn.addEventListener('click', () => {
+document.querySelectorAll('[data-order]').forEach(btn => btn.addEventListener('click', () => {
   lastTrigger = btn;
   dialog.showModal();
 }));

@@ -286,3 +286,13 @@ h2{font-size:clamp(32px,4vw,48px)}
 .faq-item p{margin:-4px 0 22px;color:var(--muted);font-size:16px;line-height:1.7;max-width:620px}
 @media (max-width:1050px){.faq-inner{grid-template-columns:1fr;gap:28px}}
 @media (max-width:760px){.faq-item summary{font-size:16.5px;padding:18px 0}}
+
+/* Order online chooser */
+.choice{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:10px;padding:16px 20px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);text-decoration:none;font-size:22px;font-weight:700;transition:border-color .2s,transform .2s}
+.choice:hover{border-color:var(--red);transform:translateY(-2px)}
+.choice strong{display:block;font-family:var(--display);font-weight:600;font-size:22px;text-transform:uppercase;color:var(--maroon)}
+.choice small{display:block;font-size:14px;font-weight:500;color:var(--muted)}
+.modal .modal-also{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin:22px 0 0}
+.provider-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.provider-row .provider{min-height:44px;justify-content:center;padding:0 8px;font-size:14px}
+.order-option p a{color:var(--red);font-weight:700}
